@@ -3,7 +3,6 @@ import { AppContext } from '../context/AppContext'
 import { assets, JobCategories, JobLocations } from '../assets/assets'
 import JobCard from './jobCard'
 
-
 const JobListing = () => {
     const {isSearched, searchFilter, setSearchFilter, jobs} = useContext(AppContext)
     const [showFilter, setShowFilter]  = useState(false)
